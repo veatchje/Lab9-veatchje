@@ -16,3 +16,11 @@ Scenario: Global Thermonuclear War Selected
 	When I type "Dr. Mohan"
 	And I type "4"
 	Then the output should contain "BOOM!"
+	
+Scenario: War Not Selected
+	Given the application is running
+	When I type "Dr. Mohan"
+	And I type "1"
+	Then the output should contain "I find that game boring."
+
+

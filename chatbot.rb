@@ -7,4 +7,6 @@ puts "Pick a game to play:\n1. A nice game of Chess\n2. Pong\n3. Asteroids\n4. G
 number = gets.chomp
 if number == "4"
 	puts "BOOM!"
+else
+	puts "I find that game boring."
 end
